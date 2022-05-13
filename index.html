@@ -6,35 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
 </head>
-<body>
+<body id="body">
     <header>
-        <h1 id="titulo"></h1>
+        <h1 id="titulo">Proyecto DOM</h1>
     </header>
     <main>
         <div>
-        <p>Lorem ipsum <span>dolor</span> sit amet consectetur, adipisicing elit. Eaque temporibus tenetur consequatur adipisci ipsam itaque neque, repellendus modi. Excepturi nemo dolorem saepe numquam ipsam inventore praesentium sit <span>dolor</span> in? Eos.<br></p>
-        <p>Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Voluptatem delectus laborum, perspiciatis nihil mollitia qui quas quisquam, modi recusandae repellat vitae illum, culpa ex quos quod <span>nostrum</span> porro maxime ipsum.<br></p> 
-        <p>ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Laboriosam minus aliquid consequatur eligendi accusamus cumque vel sint qui, odio rerum, nulla similique tenetur aliquam? Ratione minus hic expedita id modi.</p> 
+        <p id="p1">Lorem ipsum <span>dolor</span> sit amet consectetur, adipisicing elit. Eaque temporibus tenetur consequatur adipisci ipsam itaque neque, repellendus modi. Excepturi nemo dolorem saepe numquam ipsam inventore praesentium sit <span>dolor</span> in? Eos.<br></p>
+
+        <p id="p2">Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Voluptatem delectus laborum, perspiciatis nihil mollitia qui quas quisquam, modi recusandae repellat vitae illum, culpa ex quos quod <span>nostrum</span> porro maxime ipsum.<br></p>
+
+        <p id="p3">ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Laboriosam minus aliquid consequatur eligendi accusamus cumque vel sint qui, odio rerum, nulla similique tenetur aliquam? Ratione minus hic expedita id modi.</p> 
         </div>
+        <!--------------------------------------------------------------------------->
 
         <div></div>
-        <div></div>
+        
 
-        <button>Color</button>
-        <button>Color</button>
-        <button>Color</button>
-        <button>Color</button>
-        <button>Imagen</button>
+        <button onclick="cambiar();" style="background-color: red; border-color: black;">Color</button>
+        <button onclick="cambiar2();" style="background-color: red; border-color: black;">Color</button>
+        <button onclick="cambiar3();" style="background-color: red; border-color: black;">Color</button>
+        <button onclick="cambiar4();" style="background-color: red; border-color: black;">Color</button>
+        <button style="background-color: coral; border-color: black;">Imagen</button>
+
+        <form action=""><br>
+            <label for="">Nombre</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="text">
+            <label for="">Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="M1"></div>
+        <br>
+        <footer style="text-align: right; color: coral; font-size: 18px;">
+            Created by NahuelDeM for Matea 2022.
+        </footer>
 
         </main>
 
 
 
     <script>
-        document.getElementById("titulo").innerHTML = "Proyecto DOM";
 
 
     </script>
-    <script src="js.js"></script>
+    <script src="Javascript.js"></script>
 </body>
 </html>
